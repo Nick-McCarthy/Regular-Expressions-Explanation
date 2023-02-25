@@ -4,7 +4,11 @@ Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+<br>
+
+Regular expressions allow you to search through strings/text in very specific and granular ways. The regex shown above is built into HTM5 and can be used to help validate email addresses.
+<br>
 
 ## Table of Contents
 
