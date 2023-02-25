@@ -27,7 +27,9 @@ Regular expressions allow you to search through strings/text in very specific an
 ## Regex Components
 
 ### Anchors
-
+^: used to denote the beggining of a string
+$: used to denote the end of a string
+<br>
 ### Quantifiers
 
 ### OR Operator
