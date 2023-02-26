@@ -25,6 +25,7 @@ Anchors are regex tokens that don't match any characters but that say or assert 
 
 ### Quantifiers
 Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. The '+' symbol is found within the regex, and it indicates that the regex should match to the preceding pattern one or more times.
+<br>
 '[\da-z\.-]+': match one or more digits, lowercase letters, dots, or hyphens.
 
 ### OR Operator
@@ -32,8 +33,11 @@ The "or" operator is represented by the '|', It allows you to specify multiple a
 
 ### Character Classes
 A character class is a special notation that represents a set of characters. It allows you to match any one of the characters in the set.
+<br>
 '[a-z0-9_\.-]': any lowercase letter, digit, underscore, dot, or hyphen.
+<br>
 '[\da-z\.-]': any digit, lowercase letter, dot, or hyphen.
+<br>
 '[a-z\.]': any lowercase letter or dot.
 
 
@@ -43,12 +47,16 @@ There are no flags in the regex listed above.
 
 ### Grouping and Capturing
 Grouping allows you to group parts of the pattern together. Capturing happens when you save the matched text inside a group for later use.
+<br>
 '([a-z0-9_\.-]+)': matches one or more lowercase letters, digits, underscores, dots, or hyphens and captures the result in a group.
 
 ### Bracket Expressions
 Bracket expressions are indicated by square brackets '[]' and can contain a list of characters, ranges of characters, or character classes.
+<br>
 '[a-z0-9_\.-]': any lowercase letter, digit, underscore, dot, or hyphen.
+<br>
 '[\da-z\.-]': any digit, lowercase letter, dot, or hyphen.
+<br>
 '[a-z\.]': any lowercase letter or dot.
 
 ### Greedy and Lazy Match
